@@ -1,20 +1,20 @@
-## HEFT Scheduling Algorithm (Java)
+# HEFT Scheduling Algorithm (Java)
 
 This repository contains a Java implementation of the HEFT (Heterogeneous Earliest Finish Time) scheduling algorithm, along with a standard/baseline version for comparison.
 
 The HEFT algorithm is widely used in task scheduling for heterogeneous distributed systems, such as cloud and grid computing environments.
 
-# 📌 Contents
+## 📌 Contents
 
 heft.java – Implementation of the HEFT scheduling algorithm
 
 heftstandard.java – Standard / baseline version for comparison or validation
 
-# 🧠 About HEFT
+## 🧠 About HEFT
 
 HEFT (Heterogeneous Earliest Finish Time) is a list-based scheduling algorithm designed to minimize the overall completion time (makespan) of a task graph on heterogeneous processors.
 
-# Key Concepts:
+## Key Concepts:
 
 Directed Acyclic Graph (DAG) of tasks
 
@@ -26,13 +26,13 @@ Priority calculation using upward rank
 
 Task assignment based on earliest finish time
 
-# ⚙️ Requirements
+## ⚙️ Requirements
 
 Java JDK 8 or later
 
 Command-line terminal or any Java IDE (IntelliJ IDEA, Eclipse, VS Code)
 
-# ▶️ How to Compile and Run
+## ▶️ How to Compile and Run
 
 Clone the repository:
 
@@ -51,7 +51,7 @@ Run the programs:
 java heft
 java heftstandard
 
-📊 Output
+## 📊 Output
 
 The programs typically output:
 
@@ -65,7 +65,7 @@ Final makespan
 
 (Exact output depends on the input task graph and implementation details.)
 
-🧪 Use Cases
+## 🧪 Use Cases
 
 Academic study of task scheduling algorithms
 
@@ -75,7 +75,7 @@ Cloud computing and distributed systems research
 
 Performance evaluation of heterogeneous systems
 
-📈 Possible Extensions
+## 📈 Possible Extensions
 
 Add support for dynamic task graphs
 
@@ -87,7 +87,7 @@ Read task graphs from input files
 
 Measure energy consumption
 
-📝 Notes
+## 📝 Notes
 
 The implementation assumes a static DAG
 
@@ -95,7 +95,7 @@ Communication and computation costs are predefined
 
 Intended primarily for educational and research purposes
 
-📄 License
+## 📄 License
 
 This project is provided for educational use.
 You may modify and extend it for learning or research purposes.
